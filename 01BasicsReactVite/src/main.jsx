@@ -35,5 +35,5 @@ const AnotherElement = ( // this is raw HTML thats why we have to name variable 
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    areactElement
+    <App/>
 )
