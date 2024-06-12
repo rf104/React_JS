@@ -1,8 +1,11 @@
 import React from 'react'
+import Dashboard from './Dashboard'
+
 
 function Cart({username = "Sajedullah Aref", post = 'Student'}) {
     return (
         <>
+        <button className='bg-green-500 rounded-md p-3' onClick={<Dashboard/>}>Go To DashBoard</button>
         <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
     <img className="w-24 h-24 rounded-full mx-auto" src="https://images.pexels.com/photos/25643365/pexels-photo-25643365/free-photo-of-two-dogs-running-through-the-woods-with-a-stick.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" width="384" height="512"/>
     <div className="pt-6 space-y-4">
