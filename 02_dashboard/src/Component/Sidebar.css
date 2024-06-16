@@ -1,0 +1,32 @@
+/* index.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+.nav-link {
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition effect */
+  }
+  
+  .nav-link:hover {
+    color: #f8f9fa; /* Change text color on hover */
+    background-color: #495057; /* Change background color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40; /* Background color for dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #f8f9fa; /* Text color for dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057; /* Change background color on hover */
+    color: #f8f9fa; /* Ensure text color remains readable */
+  }
+  
+  .nav-link:hover {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
